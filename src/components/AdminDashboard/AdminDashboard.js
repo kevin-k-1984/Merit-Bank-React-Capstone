@@ -18,7 +18,7 @@ class AdminDashboard extends React.Component {
         if (this.props.role === "ROLE_ADMIN") {
             return (
                 <div>
-                    <h1> Welcome Administrator </h1>
+                    <h1>Administrator</h1>
                     <button className="btn btn-light" onClick={this.handleUser} >Go To User</button>
                 </div>
             );
